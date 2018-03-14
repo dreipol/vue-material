@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory();
 	else
 		root["VueMaterial"] = factory();
-})(this, (function() {
+})(typeof self !== 'undefined' ? self : this, (function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 483);
+/******/ 	return __webpack_require__(__webpack_require__.s = 481);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -173,7 +173,7 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ 442:
+/***/ 441:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -184,7 +184,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdWhiteframe = __webpack_require__(443);
+var _mdWhiteframe = __webpack_require__(442);
 
 var _mdWhiteframe2 = _interopRequireDefault(_mdWhiteframe);
 
@@ -197,17 +197,17 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 443:
+/***/ 442:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(444)
+  __webpack_require__(443)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(445),
+  __webpack_require__(444),
   /* template */
   null,
   /* styles */
@@ -217,7 +217,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdWhiteframe/mdWhiteframe.vue"
+Component.options.__file = "/Users/rouvenbuhlmann/Documents/Repositories/vue-material/src/components/mdWhiteframe/mdWhiteframe.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -241,14 +241,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 444:
+/***/ 443:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 445:
+/***/ 444:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -298,10 +298,10 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 483:
+/***/ 481:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(442);
+module.exports = __webpack_require__(441);
 
 
 /***/ })

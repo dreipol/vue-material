@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory();
 	else
 		root["VueMaterial"] = factory();
-})(this, (function() {
+})(typeof self !== 'undefined' ? self : this, (function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 474);
+/******/ 	return __webpack_require__(__webpack_require__.s = 472);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -227,7 +227,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 352:
+/***/ 351:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -238,11 +238,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdSpeedDial = __webpack_require__(353);
+var _mdSpeedDial = __webpack_require__(352);
 
 var _mdSpeedDial2 = _interopRequireDefault(_mdSpeedDial);
 
-var _mdSpeedDial3 = __webpack_require__(357);
+var _mdSpeedDial3 = __webpack_require__(356);
 
 var _mdSpeedDial4 = _interopRequireDefault(_mdSpeedDial3);
 
@@ -257,19 +257,19 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 353:
+/***/ 352:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(354)
+  __webpack_require__(353)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(355),
+  __webpack_require__(354),
   /* template */
-  __webpack_require__(356),
+  __webpack_require__(355),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -277,7 +277,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdSpeedDial/mdSpeedDial.vue"
+Component.options.__file = "/Users/rouvenbuhlmann/Documents/Repositories/vue-material/src/components/mdSpeedDial/mdSpeedDial.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdSpeedDial.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -302,14 +302,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 354:
+/***/ 353:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 355:
+/***/ 354:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -408,7 +408,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 356:
+/***/ 355:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -427,17 +427,17 @@ if (false) {
 
 /***/ }),
 
-/***/ 357:
+/***/ 356:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 474:
+/***/ 472:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(352);
+module.exports = __webpack_require__(351);
 
 
 /***/ })

@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory();
 	else
 		root["VueMaterial"] = factory();
-})(this, (function() {
+})(typeof self !== 'undefined' ? self : this, (function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 450);
+/******/ 	return __webpack_require__(__webpack_require__.s = 449);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -217,7 +217,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
+Component.options.__file = "/Users/rouvenbuhlmann/Documents/Repositories/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdBackdrop.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -286,7 +286,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.close,
       "keyup": function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "esc", 27)) { return null; }
+        if (!('button' in $event) && _vm._k($event.keyCode, "esc", 27, $event.key)) { return null; }
         _vm.close($event)
       }
     }
@@ -302,7 +302,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 450:
+/***/ 449:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(101);

@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory();
 	else
 		root["VueMaterial"] = factory();
-})(this, (function() {
+})(typeof self !== 'undefined' ? self : this, (function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 475);
+/******/ 	return __webpack_require__(__webpack_require__.s = 473);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -227,7 +227,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 358:
+/***/ 357:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -238,11 +238,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdSpinner = __webpack_require__(359);
+var _mdSpinner = __webpack_require__(358);
 
 var _mdSpinner2 = _interopRequireDefault(_mdSpinner);
 
-var _mdSpinner3 = __webpack_require__(363);
+var _mdSpinner3 = __webpack_require__(362);
 
 var _mdSpinner4 = _interopRequireDefault(_mdSpinner3);
 
@@ -257,19 +257,19 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 359:
+/***/ 358:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(360)
+  __webpack_require__(359)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(361),
+  __webpack_require__(360),
   /* template */
-  __webpack_require__(362),
+  __webpack_require__(361),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -277,7 +277,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdSpinner/mdSpinner.vue"
+Component.options.__file = "/Users/rouvenbuhlmann/Documents/Repositories/vue-material/src/components/mdSpinner/mdSpinner.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdSpinner.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -302,14 +302,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 360:
+/***/ 359:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 361:
+/***/ 360:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -388,7 +388,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 362:
+/***/ 361:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -427,17 +427,17 @@ if (false) {
 
 /***/ }),
 
-/***/ 363:
+/***/ 362:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME.md-spinner .md-spinner-path {\n  stroke: PRIMARY-COLOR; }\n\n.THEME_NAME.md-spinner.md-accent .md-spinner-path {\n  stroke: ACCENT-COLOR; }\n\n.THEME_NAME.md-spinner.md-warn .md-spinner-path {\n  stroke: WARN-COLOR; }\n"
 
 /***/ }),
 
-/***/ 475:
+/***/ 473:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(358);
+module.exports = __webpack_require__(357);
 
 
 /***/ })
