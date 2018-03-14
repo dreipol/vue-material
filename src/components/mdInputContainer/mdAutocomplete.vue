@@ -150,7 +150,7 @@
           this.renderFilteredList();
           this.openMenu();
         }
-  
+
         this.$emit('focus', this.$el.value, event);
       },
       onInput() {
@@ -159,7 +159,7 @@
         this.$emit('input', this.$refs.input.value);
       },
       renderFilteredList() {
-        if (this.filterList && this.query.length >= this.minChars) {
+        if (this.filterList && (!this.minChars || this.query.length >= this.minChars)) {
           this.items = this.filterList(Object.assign([], this.list), this.query);
         }
 
