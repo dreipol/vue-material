@@ -146,7 +146,7 @@
 
         this.$refs.input.focus();
 
-        if (this.query && this.query.length >= this.minChars) {
+        if (this.query != null && this.query.length >= this.minChars) {
           this.renderFilteredList();
           this.openMenu();
         }
