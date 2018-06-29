@@ -5687,13 +5687,13 @@ to {
           justify-content: flex-end;
 }
 .md-tabs .md-tabs-navigation-container {
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     overflow-x: auto;
 }
 .md-tabs .md-tabs-navigation-scroll-container {
     display: -ms-flexbox;
     display: flex;
+    height: 100%;
 }
 .md-tabs .md-tab-header {
     min-width: 72px;

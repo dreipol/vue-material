@@ -18271,7 +18271,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('div', {
     staticClass: "md-tabs-navigation-scroll-container"
-  }, [_vm._l((_vm.tabList), (function(header) {
+  }, _vm._l((_vm.tabList), (function(header) {
     return _c('button', {
       key: header.id,
       ref: "tabHeader",
@@ -18309,11 +18309,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         "md-delay": header.tooltipDelay
       }
     }, [_vm._v(_vm._s(header.tooltip))]) : _vm._e()], 1)
-  })), _vm._v(" "), _c('span', {
+  }))), _vm._v(" "), _c('span', {
     ref: "indicator",
     staticClass: "md-tab-indicator",
     class: _vm.indicatorClasses
-  })], 2)]), _vm._v(" "), (_vm.mdNavigation && _vm.hasNavigationScroll) ? _c('button', {
+  })]), _vm._v(" "), (_vm.mdNavigation && _vm.hasNavigationScroll) ? _c('button', {
     staticClass: "md-tab-header-navigation-button md-left",
     class: _vm.navigationLeftButtonClasses,
     on: {

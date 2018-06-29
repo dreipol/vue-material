@@ -27,8 +27,8 @@
            <md-tooltip v-if="header.tooltip" :md-direction="header.tooltipDirection" :md-delay="header.tooltipDelay">{{ header.tooltip }}</md-tooltip>
           </button>
 
-          <span class="md-tab-indicator" :class="indicatorClasses" ref="indicator"></span>
         </div>
+        <span class="md-tab-indicator" :class="indicatorClasses" ref="indicator"></span>
       </div>
 
       <button v-if="mdNavigation && hasNavigationScroll" @click="navigationScrollLeft" class="md-tab-header-navigation-button md-left" :class="navigationLeftButtonClasses">
@@ -224,7 +224,7 @@
           if (this._destroyed) {
             return;
           }
-  
+
           this.calculateIndicatorPos();
           this.calculateTabsWidthAndPosition();
           this.calculateContentHeight();
