@@ -147,7 +147,6 @@ ul:not(.md-list) > li + li {
    ========================================================================== */
 audio,
 img,
-svg,
 object,
 embed,
 canvas,
@@ -158,7 +157,6 @@ iframe {
   vertical-align: middle; }
   audio:not(.md-image),
   img:not(.md-image),
-  svg:not(.md-image),
   object:not(.md-image),
   embed:not(.md-image),
   canvas:not(.md-image),
